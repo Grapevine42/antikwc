@@ -35,6 +35,8 @@ app.post('/message', function (req, res) {
     };
 
 
+    res.json(send);
+
 })
 
 

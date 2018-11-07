@@ -14,7 +14,7 @@ app.get('/keyboard', function (req, res) {
     res.json(data);
 });
 
-http.createServer(app).listen(9090, function () {
+http.createServer(app).listen(process.env.PORT || 9000, function () {
     console.log('서버 실행')
 });
 

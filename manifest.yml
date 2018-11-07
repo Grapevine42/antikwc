@@ -1,0 +1,6 @@
+---
+applications:
+- name:    antikwc
+  random-route: false
+  memory:  64M
+  timeout: 60
